@@ -10,8 +10,11 @@
 
 
 <div align=center> 
-  <img src= "https://raw.githubusercontent.com/Soldoros/SSChat/master/datu/1.PNG" width="345"> 
-  <img src= "https://raw.githubusercontent.com/Soldoros/SSChat/master/datu/4.PNG" width="345">
+  <img src= "https://raw.githubusercontent.com/Soldoros/Htcm_Swift/master/11.png" width="345"> 
+  <img src= "https://raw.githubusercontent.com/Soldoros/Htcm_Swift/master/22.png" width="345">
+      <br><br>
+  <img src= "https://raw.githubusercontent.com/Soldoros/Htcm_Swift/master/33.png" width="345">
+  <img src= "https://raw.githubusercontent.com/Soldoros/Htcm_Swift/master/44.png" width="345">
 </div>
 
 
