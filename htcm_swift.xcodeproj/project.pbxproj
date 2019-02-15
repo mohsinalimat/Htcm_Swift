@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CE6818FFEE06F47F7A43C01 /* Pods_htcm_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7787A4678E3EBD4D7DAE2D /* Pods_htcm_swift.framework */; };
+		AF0C0ADA21F566B700EB7EAF /* HealthFamilyListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0AD921F566B700EB7EAF /* HealthFamilyListController.swift */; };
+		AF0C0ADC21F5B86A00EB7EAF /* HealthFamilyDetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0ADB21F5B86A00EB7EAF /* HealthFamilyDetController.swift */; };
+		AF0CD65921E42FD500AA0325 /* MinePersonalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0CD65821E42FD500AA0325 /* MinePersonalController.swift */; };
+		AF0CD65B21E43A3400AA0325 /* MineHeaderImgController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0CD65A21E43A3400AA0325 /* MineHeaderImgController.swift */; };
+		AF0CD65D21E43B3000AA0325 /* MineChangePhoneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0CD65C21E43B3000AA0325 /* MineChangePhoneController.swift */; };
+		AF0CD65F21E43FD200AA0325 /* MineChangePhoneValidationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0CD65E21E43FD200AA0325 /* MineChangePhoneValidationController.swift */; };
+		AF0CD66121E4516200AA0325 /* MineChangePWController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0CD66021E4516200AA0325 /* MineChangePWController.swift */; };
+		AF0CD66321E485D000AA0325 /* SSAddImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0CD66221E485D000AA0325 /* SSAddImage.swift */; };
+		AF0CD66521E4A81900AA0325 /* MineMessageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0CD66421E4A81900AA0325 /* MineMessageListController.swift */; };
+		AF13054021FAAFFB0043B777 /* MineEquipmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13053F21FAAFFB0043B777 /* MineEquipmentController.swift */; };
+		AF13054321FAB4680043B777 /* MineCouponsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13054221FAB4680043B777 /* MineCouponsController.swift */; };
+		AF13054621FAEE770043B777 /* MineGeneralListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13054521FAEE770043B777 /* MineGeneralListController.swift */; };
+		AF13054921FAFB630043B777 /* MineCollectionListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13054821FAFB630043B777 /* MineCollectionListController.swift */; };
+		AF13054E21FB11DB0043B777 /* HomeMedicalPackageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13054D21FB11DB0043B777 /* HomeMedicalPackageListController.swift */; };
+		AF1540A321D0D06C003C753E /* FoundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1540A221D0D06C003C753E /* FoundViews.swift */; };
+		AF1540A521D0D078003C753E /* FoundDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1540A421D0D078003C753E /* FoundDatas.swift */; };
+		AF157E9E21DF5D56007CA0EA /* AccountLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF157E9D21DF5D56007CA0EA /* AccountLoginController.swift */; };
+		AF1614A921CA185600F89F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1614A821CA185600F89F79 /* AppDelegate.swift */; };
+		AF1614AE21CA185600F89F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1614AC21CA185600F89F79 /* Main.storyboard */; };
+		AF1614B021CA185600F89F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1614AF21CA185600F89F79 /* Assets.xcassets */; };
+		AF1614B321CA185600F89F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1614B121CA185600F89F79 /* LaunchScreen.storyboard */; };
+		AF1614BB21CA1D6200F89F79 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1614BA21CA1D6200F89F79 /* RootController.swift */; };
+		AF1614C221CA1F6400F89F79 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1614C121CA1F6400F89F79 /* BaseController.swift */; };
+		AF1614C421CA1F8100F89F79 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1614C321CA1F8100F89F79 /* HomeController.swift */; };
+		AF1614C621CA1F8A00F89F79 /* HealthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1614C521CA1F8A00F89F79 /* HealthController.swift */; };
+		AF1614C821CA1F9700F89F79 /* FoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1614C721CA1F9700F89F79 /* FoundController.swift */; };
+		AF1614CA21CA1FA300F89F79 /* MineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1614C921CA1FA300F89F79 /* MineController.swift */; };
+		AF1614CC21CA264100F89F79 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1614CB21CA264100F89F79 /* Define.swift */; };
+		AF1614CE21CA2C8800F89F79 /* SSUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1614CD21CA2C8800F89F79 /* SSUserDefault.swift */; };
+		AF1E7EEC21CB343800365675 /* UIView+SSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E7EEB21CB343800365675 /* UIView+SSAdd.swift */; };
+		AF1E7EEE21CB350500365675 /* UIColor+SSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E7EED21CB350500365675 /* UIColor+SSAdd.swift */; };
+		AF1E7EF021CB3F8900365675 /* HomeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E7EEF21CB3F8900365675 /* HomeViews.swift */; };
+		AF1E7EF221CB3FA200365675 /* HomeDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E7EF121CB3FA200365675 /* HomeDatas.swift */; };
+		AF1E7EFB21CB6C8900365675 /* LLCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E7EFA21CB6C8900365675 /* LLCycleScrollView.swift */; };
+		AF1E7EFD21CB6FD700365675 /* SSDeviceDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E7EFC21CB6FD700365675 /* SSDeviceDefault.swift */; };
+		AF1E7EFF21CB7E2500365675 /* UITableView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1E7EFE21CB7E2500365675 /* UITableView+Add.swift */; };
+		AF86063221F16C9600B9DDF0 /* MineServiceOrderDetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86063121F16C9600B9DDF0 /* MineServiceOrderDetController.swift */; };
+		AF8B205521D5CDBB006CD070 /* BaseVirtualController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B205421D5CDBB006CD070 /* BaseVirtualController.swift */; };
+		AF8B205721D5F712006CD070 /* UIImage+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B205621D5F712006CD070 /* UIImage+Add.swift */; };
+		AF8B205921D5FF4C006CD070 /* UIButton+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B205821D5FF4C006CD070 /* UIButton+Add.swift */; };
+		AFA9194B21DE03FE00AD0EB9 /* MineViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA9194A21DE03FE00AD0EB9 /* MineViews.swift */; };
+		AFA9194D21DE040B00AD0EB9 /* MineDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA9194C21DE040B00AD0EB9 /* MineDatas.swift */; };
+		AFCE6CE221EC1FC100563B25 /* MineMedicalOrderListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCE6CE121EC1FC100563B25 /* MineMedicalOrderListController.swift */; };
+		AFCE6CE421EC208900563B25 /* MineOrderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCE6CE321EC208900563B25 /* MineOrderViews.swift */; };
+		AFCE6CE621EC40D500563B25 /* SSTableSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCE6CE521EC40D500563B25 /* SSTableSwitchView.swift */; };
+		AFCE6CE821EC94F600563B25 /* MineServiceOrderListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCE6CE721EC94F600563B25 /* MineServiceOrderListController.swift */; };
+		AFDF081C21CCE3C80042364D /* HealthDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF081B21CCE3C80042364D /* HealthDatas.swift */; };
+		AFDF081E21CCE3D40042364D /* HealthViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF081D21CCE3D40042364D /* HealthViews.swift */; };
+		AFDF082021CCE93B0042364D /* NSObject+SSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF081F21CCE93B0042364D /* NSObject+SSAdd.swift */; };
+		AFE5D71321ED8E6F006966C4 /* MineMedicalOrderDetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5D71221ED8E6F006966C4 /* MineMedicalOrderDetController.swift */; };
+		AFE83D7721EF168400DB03C5 /* PBWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE83D7621EF168400DB03C5 /* PBWebViewController.swift */; };
+		AFE83D7921EF16CC00DB03C5 /* PBPayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE83D7821EF16CC00DB03C5 /* PBPayController.swift */; };
+		AFE83D7B21EF1AF400DB03C5 /* PBViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE83D7A21EF1AF400DB03C5 /* PBViews.swift */; };
+		AFED620021F7FA29006EA8B8 /* HealthAddFamilyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFED61FF21F7FA29006EA8B8 /* HealthAddFamilyController.swift */; };
+		AFED620221F81E0A006EA8B8 /* HealthEditFamilyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFED620121F81E0A006EA8B8 /* HealthEditFamilyController.swift */; };
+		AFED620421F85DE9006EA8B8 /* HealthQrCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFED620321F85DE9006EA8B8 /* HealthQrCodeController.swift */; };
+		AFED620621F86F14006EA8B8 /* PBEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFED620521F86F14006EA8B8 /* PBEditController.swift */; };
+		AFED620821F8762D006EA8B8 /* SSDatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFED620721F8762D006EA8B8 /* SSDatePickerController.swift */; };
+		AFF8AD1321E2ED9F009CF97B /* AccountRegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8AD1221E2ED9F009CF97B /* AccountRegisterController.swift */; };
+		AFF8AD1521E2EF9D009CF97B /* AccountViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8AD1421E2EF9D009CF97B /* AccountViews.swift */; };
+		AFF8AD1721E2EFAA009CF97B /* AccountDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8AD1621E2EFAA009CF97B /* AccountDatas.swift */; };
+		AFF8AD1C21E33963009CF97B /* AccountForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8AD1B21E33963009CF97B /* AccountForgotPasswordController.swift */; };
+		AFF8AD1E21E33ED1009CF97B /* AccountSetPWController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8AD1D21E33ED1009CF97B /* AccountSetPWController.swift */; };
+		AFF8AD2021E350EE009CF97B /* MineSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8AD1F21E350EE009CF97B /* MineSettingController.swift */; };
+		AFF9D47721E6EA780000FC8B /* MineVipCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF9D47621E6EA780000FC8B /* MineVipCardController.swift */; };
+		AFF9D47921E7198A0000FC8B /* MineAddVipCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF9D47821E7198A0000FC8B /* MineAddVipCardController.swift */; };
+		AFF9D47B21E725B30000FC8B /* NSString+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF9D47A21E725B30000FC8B /* NSString+Add.swift */; };
+		AFF9D47D21E735520000FC8B /* MineVipCardDetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF9D47C21E735520000FC8B /* MineVipCardDetController.swift */; };
+		AFF9D47F21E74D260000FC8B /* MineChangeVipCardPWController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF9D47E21E74D260000FC8B /* MineChangeVipCardPWController.swift */; };
+		AFF9D48121E7529A0000FC8B /* MineTransactionRecordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF9D48021E7529A0000FC8B /* MineTransactionRecordsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C7787A4678E3EBD4D7DAE2D /* Pods_htcm_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_htcm_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		911219465900661F8B546BCB /* Pods-htcm_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htcm_swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-htcm_swift/Pods-htcm_swift.debug.xcconfig"; sourceTree = "<group>"; };
+		95406232C08066FCC4727631 /* Pods-htcm_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htcm_swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-htcm_swift/Pods-htcm_swift.release.xcconfig"; sourceTree = "<group>"; };
+		AF0C0AD921F566B700EB7EAF /* HealthFamilyListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFamilyListController.swift; sourceTree = "<group>"; };
+		AF0C0ADB21F5B86A00EB7EAF /* HealthFamilyDetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFamilyDetController.swift; sourceTree = "<group>"; };
+		AF0CD65821E42FD500AA0325 /* MinePersonalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinePersonalController.swift; sourceTree = "<group>"; };
+		AF0CD65A21E43A3400AA0325 /* MineHeaderImgController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineHeaderImgController.swift; sourceTree = "<group>"; };
+		AF0CD65C21E43B3000AA0325 /* MineChangePhoneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineChangePhoneController.swift; sourceTree = "<group>"; };
+		AF0CD65E21E43FD200AA0325 /* MineChangePhoneValidationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineChangePhoneValidationController.swift; sourceTree = "<group>"; };
+		AF0CD66021E4516200AA0325 /* MineChangePWController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineChangePWController.swift; sourceTree = "<group>"; };
+		AF0CD66221E485D000AA0325 /* SSAddImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSAddImage.swift; sourceTree = "<group>"; };
+		AF0CD66421E4A81900AA0325 /* MineMessageListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineMessageListController.swift; sourceTree = "<group>"; };
+		AF13053F21FAAFFB0043B777 /* MineEquipmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineEquipmentController.swift; sourceTree = "<group>"; };
+		AF13054221FAB4680043B777 /* MineCouponsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineCouponsController.swift; sourceTree = "<group>"; };
+		AF13054521FAEE770043B777 /* MineGeneralListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineGeneralListController.swift; sourceTree = "<group>"; };
+		AF13054821FAFB630043B777 /* MineCollectionListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineCollectionListController.swift; sourceTree = "<group>"; };
+		AF13054D21FB11DB0043B777 /* HomeMedicalPackageListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMedicalPackageListController.swift; sourceTree = "<group>"; };
+		AF1540A221D0D06C003C753E /* FoundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundViews.swift; sourceTree = "<group>"; };
+		AF1540A421D0D078003C753E /* FoundDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundDatas.swift; sourceTree = "<group>"; };
+		AF157E9D21DF5D56007CA0EA /* AccountLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountLoginController.swift; sourceTree = "<group>"; };
+		AF1614A521CA185600F89F79 /* htcm_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = htcm_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1614A821CA185600F89F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF1614AD21CA185600F89F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF1614AF21CA185600F89F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF1614B221CA185600F89F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF1614B421CA185600F89F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1614BA21CA1D6200F89F79 /* RootController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
+		AF1614C121CA1F6400F89F79 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		AF1614C321CA1F8100F89F79 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		AF1614C521CA1F8A00F89F79 /* HealthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthController.swift; sourceTree = "<group>"; };
+		AF1614C721CA1F9700F89F79 /* FoundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundController.swift; sourceTree = "<group>"; };
+		AF1614C921CA1FA300F89F79 /* MineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineController.swift; sourceTree = "<group>"; };
+		AF1614CB21CA264100F89F79 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		AF1614CD21CA2C8800F89F79 /* SSUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSUserDefault.swift; sourceTree = "<group>"; };
+		AF1E7EEB21CB343800365675 /* UIView+SSAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SSAdd.swift"; sourceTree = "<group>"; };
+		AF1E7EED21CB350500365675 /* UIColor+SSAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+SSAdd.swift"; sourceTree = "<group>"; };
+		AF1E7EEF21CB3F8900365675 /* HomeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViews.swift; sourceTree = "<group>"; };
+		AF1E7EF121CB3FA200365675 /* HomeDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatas.swift; sourceTree = "<group>"; };
+		AF1E7EFA21CB6C8900365675 /* LLCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCycleScrollView.swift; sourceTree = "<group>"; };
+		AF1E7EFC21CB6FD700365675 /* SSDeviceDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDeviceDefault.swift; sourceTree = "<group>"; };
+		AF1E7EFE21CB7E2500365675 /* UITableView+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Add.swift"; sourceTree = "<group>"; };
+		AF86063121F16C9600B9DDF0 /* MineServiceOrderDetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineServiceOrderDetController.swift; sourceTree = "<group>"; };
+		AF8B205421D5CDBB006CD070 /* BaseVirtualController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVirtualController.swift; sourceTree = "<group>"; };
+		AF8B205621D5F712006CD070 /* UIImage+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Add.swift"; sourceTree = "<group>"; };
+		AF8B205821D5FF4C006CD070 /* UIButton+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Add.swift"; sourceTree = "<group>"; };
+		AFA9194A21DE03FE00AD0EB9 /* MineViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViews.swift; sourceTree = "<group>"; };
+		AFA9194C21DE040B00AD0EB9 /* MineDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineDatas.swift; sourceTree = "<group>"; };
+		AFCE6CE121EC1FC100563B25 /* MineMedicalOrderListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineMedicalOrderListController.swift; sourceTree = "<group>"; };
+		AFCE6CE321EC208900563B25 /* MineOrderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineOrderViews.swift; sourceTree = "<group>"; };
+		AFCE6CE521EC40D500563B25 /* SSTableSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSTableSwitchView.swift; sourceTree = "<group>"; };
+		AFCE6CE721EC94F600563B25 /* MineServiceOrderListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineServiceOrderListController.swift; sourceTree = "<group>"; };
+		AFDF081B21CCE3C80042364D /* HealthDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDatas.swift; sourceTree = "<group>"; };
+		AFDF081D21CCE3D40042364D /* HealthViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViews.swift; sourceTree = "<group>"; };
+		AFDF081F21CCE93B0042364D /* NSObject+SSAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+SSAdd.swift"; sourceTree = "<group>"; };
+		AFE5D71221ED8E6F006966C4 /* MineMedicalOrderDetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineMedicalOrderDetController.swift; sourceTree = "<group>"; };
+		AFE83D7621EF168400DB03C5 /* PBWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBWebViewController.swift; sourceTree = "<group>"; };
+		AFE83D7821EF16CC00DB03C5 /* PBPayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBPayController.swift; sourceTree = "<group>"; };
+		AFE83D7A21EF1AF400DB03C5 /* PBViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBViews.swift; sourceTree = "<group>"; };
+		AFED61FF21F7FA29006EA8B8 /* HealthAddFamilyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAddFamilyController.swift; sourceTree = "<group>"; };
+		AFED620121F81E0A006EA8B8 /* HealthEditFamilyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthEditFamilyController.swift; sourceTree = "<group>"; };
+		AFED620321F85DE9006EA8B8 /* HealthQrCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthQrCodeController.swift; sourceTree = "<group>"; };
+		AFED620521F86F14006EA8B8 /* PBEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBEditController.swift; sourceTree = "<group>"; };
+		AFED620721F8762D006EA8B8 /* SSDatePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDatePickerController.swift; sourceTree = "<group>"; };
+		AFF8AD1221E2ED9F009CF97B /* AccountRegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRegisterController.swift; sourceTree = "<group>"; };
+		AFF8AD1421E2EF9D009CF97B /* AccountViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViews.swift; sourceTree = "<group>"; };
+		AFF8AD1621E2EFAA009CF97B /* AccountDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDatas.swift; sourceTree = "<group>"; };
+		AFF8AD1B21E33963009CF97B /* AccountForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountForgotPasswordController.swift; sourceTree = "<group>"; };
+		AFF8AD1D21E33ED1009CF97B /* AccountSetPWController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSetPWController.swift; sourceTree = "<group>"; };
+		AFF8AD1F21E350EE009CF97B /* MineSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSettingController.swift; sourceTree = "<group>"; };
+		AFF9D47621E6EA780000FC8B /* MineVipCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineVipCardController.swift; sourceTree = "<group>"; };
+		AFF9D47821E7198A0000FC8B /* MineAddVipCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineAddVipCardController.swift; sourceTree = "<group>"; };
+		AFF9D47A21E725B30000FC8B /* NSString+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Add.swift"; sourceTree = "<group>"; };
+		AFF9D47C21E735520000FC8B /* MineVipCardDetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineVipCardDetController.swift; sourceTree = "<group>"; };
+		AFF9D47E21E74D260000FC8B /* MineChangeVipCardPWController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineChangeVipCardPWController.swift; sourceTree = "<group>"; };
+		AFF9D48021E7529A0000FC8B /* MineTransactionRecordsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineTransactionRecordsController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF1614A221CA185600F89F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE6818FFEE06F47F7A43C01 /* Pods_htcm_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9705C2439BC88907C5089992 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C7787A4678E3EBD4D7DAE2D /* Pods_htcm_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF13053E21FAAFE70043B777 /* Equipment */ = {
+			isa = PBXGroup;
+			children = (
+				AF13053F21FAAFFB0043B777 /* MineEquipmentController.swift */,
+			);
+			path = Equipment;
+			sourceTree = "<group>";
+		};
+		AF13054121FAB45F0043B777 /* Coupons */ = {
+			isa = PBXGroup;
+			children = (
+				AF13054221FAB4680043B777 /* MineCouponsController.swift */,
+			);
+			path = Coupons;
+			sourceTree = "<group>";
+		};
+		AF13054421FAEBD30043B777 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				AF13054521FAEE770043B777 /* MineGeneralListController.swift */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+		AF13054721FAFB5B0043B777 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				AF13054821FAFB630043B777 /* MineCollectionListController.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		AF13054A21FB0F700043B777 /* MedicalPlan */ = {
+			isa = PBXGroup;
+			children = (
+				AF13054D21FB11DB0043B777 /* HomeMedicalPackageListController.swift */,
+			);
+			path = MedicalPlan;
+			sourceTree = "<group>";
+		};
+		AF157E9C21DF5D1B007CA0EA /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				AF157E9D21DF5D56007CA0EA /* AccountLoginController.swift */,
+				AFF8AD1221E2ED9F009CF97B /* AccountRegisterController.swift */,
+				AFF8AD1B21E33963009CF97B /* AccountForgotPasswordController.swift */,
+				AFF8AD1D21E33ED1009CF97B /* AccountSetPWController.swift */,
+				AFF8AD1421E2EF9D009CF97B /* AccountViews.swift */,
+				AFF8AD1621E2EFAA009CF97B /* AccountDatas.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		AF16149C21CA185600F89F79 = {
+			isa = PBXGroup;
+			children = (
+				AF1614A721CA185600F89F79 /* htcm_swift */,
+				AF1614A621CA185600F89F79 /* Products */,
+				B3C043F660225A7FA10387EC /* Pods */,
+				9705C2439BC88907C5089992 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF1614A621CA185600F89F79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF1614A521CA185600F89F79 /* htcm_swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF1614A721CA185600F89F79 /* htcm_swift */ = {
+			isa = PBXGroup;
+			children = (
+				AFF8AD1821E2FFDC009CF97B /* Public */,
+				AF157E9C21DF5D1B007CA0EA /* Account */,
+				AF1E7EF921CB6C7F00365675 /* Other */,
+				AF1614C021CA1F5200F89F79 /* Kit */,
+				AF1614BC21CA1F0500F89F79 /* Found */,
+				AF1614BD21CA1F0500F89F79 /* Health */,
+				AF1614BE21CA1F0500F89F79 /* Home */,
+				AF1614BF21CA1F0500F89F79 /* Mine */,
+				AF1614A821CA185600F89F79 /* AppDelegate.swift */,
+				AF1614BA21CA1D6200F89F79 /* RootController.swift */,
+				AF1614AC21CA185600F89F79 /* Main.storyboard */,
+				AF1614AF21CA185600F89F79 /* Assets.xcassets */,
+				AF1614B121CA185600F89F79 /* LaunchScreen.storyboard */,
+				AF1614B421CA185600F89F79 /* Info.plist */,
+			);
+			path = htcm_swift;
+			sourceTree = "<group>";
+		};
+		AF1614BC21CA1F0500F89F79 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				AF1614C721CA1F9700F89F79 /* FoundController.swift */,
+				AF1540A221D0D06C003C753E /* FoundViews.swift */,
+				AF1540A421D0D078003C753E /* FoundDatas.swift */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		AF1614BD21CA1F0500F89F79 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				AF1614C521CA1F8A00F89F79 /* HealthController.swift */,
+				AF0C0AD921F566B700EB7EAF /* HealthFamilyListController.swift */,
+				AF0C0ADB21F5B86A00EB7EAF /* HealthFamilyDetController.swift */,
+				AFED61FF21F7FA29006EA8B8 /* HealthAddFamilyController.swift */,
+				AFED620121F81E0A006EA8B8 /* HealthEditFamilyController.swift */,
+				AFED620321F85DE9006EA8B8 /* HealthQrCodeController.swift */,
+				AFDF081D21CCE3D40042364D /* HealthViews.swift */,
+				AFDF081B21CCE3C80042364D /* HealthDatas.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		AF1614BE21CA1F0500F89F79 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF13054A21FB0F700043B777 /* MedicalPlan */,
+				AF1614C321CA1F8100F89F79 /* HomeController.swift */,
+				AF1E7EEF21CB3F8900365675 /* HomeViews.swift */,
+				AF1E7EF121CB3FA200365675 /* HomeDatas.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AF1614BF21CA1F0500F89F79 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				AF13054721FAFB5B0043B777 /* Collection */,
+				AF13054421FAEBD30043B777 /* Problems */,
+				AF13054121FAB45F0043B777 /* Coupons */,
+				AF13053E21FAAFE70043B777 /* Equipment */,
+				AFCE6CE021EC1FB400563B25 /* Order */,
+				AFF9D47521E6EA670000FC8B /* VipCard */,
+				AF1614C921CA1FA300F89F79 /* MineController.swift */,
+				AFF8AD1F21E350EE009CF97B /* MineSettingController.swift */,
+				AF0CD65821E42FD500AA0325 /* MinePersonalController.swift */,
+				AF0CD65A21E43A3400AA0325 /* MineHeaderImgController.swift */,
+				AF0CD65C21E43B3000AA0325 /* MineChangePhoneController.swift */,
+				AF0CD65E21E43FD200AA0325 /* MineChangePhoneValidationController.swift */,
+				AF0CD66021E4516200AA0325 /* MineChangePWController.swift */,
+				AF0CD66421E4A81900AA0325 /* MineMessageListController.swift */,
+				AFA9194A21DE03FE00AD0EB9 /* MineViews.swift */,
+				AFA9194C21DE040B00AD0EB9 /* MineDatas.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		AF1614C021CA1F5200F89F79 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				AF1614C121CA1F6400F89F79 /* BaseController.swift */,
+				AF8B205421D5CDBB006CD070 /* BaseVirtualController.swift */,
+				AF1614CB21CA264100F89F79 /* Define.swift */,
+				AFDF081F21CCE93B0042364D /* NSObject+SSAdd.swift */,
+				AF0CD66221E485D000AA0325 /* SSAddImage.swift */,
+				AF1E7EFC21CB6FD700365675 /* SSDeviceDefault.swift */,
+				AF1614CD21CA2C8800F89F79 /* SSUserDefault.swift */,
+				AF8B205821D5FF4C006CD070 /* UIButton+Add.swift */,
+				AF1E7EED21CB350500365675 /* UIColor+SSAdd.swift */,
+				AF8B205621D5F712006CD070 /* UIImage+Add.swift */,
+				AF1E7EFE21CB7E2500365675 /* UITableView+Add.swift */,
+				AF1E7EEB21CB343800365675 /* UIView+SSAdd.swift */,
+				AFF9D47A21E725B30000FC8B /* NSString+Add.swift */,
+				AFCE6CE521EC40D500563B25 /* SSTableSwitchView.swift */,
+				AFED620721F8762D006EA8B8 /* SSDatePickerController.swift */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		AF1E7EF921CB6C7F00365675 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AF1E7EFA21CB6C8900365675 /* LLCycleScrollView.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AFCE6CE021EC1FB400563B25 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				AFCE6CE121EC1FC100563B25 /* MineMedicalOrderListController.swift */,
+				AFE5D71221ED8E6F006966C4 /* MineMedicalOrderDetController.swift */,
+				AFCE6CE721EC94F600563B25 /* MineServiceOrderListController.swift */,
+				AF86063121F16C9600B9DDF0 /* MineServiceOrderDetController.swift */,
+				AFCE6CE321EC208900563B25 /* MineOrderViews.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		AFF8AD1821E2FFDC009CF97B /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				AFE83D7621EF168400DB03C5 /* PBWebViewController.swift */,
+				AFE83D7821EF16CC00DB03C5 /* PBPayController.swift */,
+				AFED620521F86F14006EA8B8 /* PBEditController.swift */,
+				AFE83D7A21EF1AF400DB03C5 /* PBViews.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		AFF9D47521E6EA670000FC8B /* VipCard */ = {
+			isa = PBXGroup;
+			children = (
+				AFF9D47621E6EA780000FC8B /* MineVipCardController.swift */,
+				AFF9D47821E7198A0000FC8B /* MineAddVipCardController.swift */,
+				AFF9D47C21E735520000FC8B /* MineVipCardDetController.swift */,
+				AFF9D47E21E74D260000FC8B /* MineChangeVipCardPWController.swift */,
+				AFF9D48021E7529A0000FC8B /* MineTransactionRecordsController.swift */,
+			);
+			path = VipCard;
+			sourceTree = "<group>";
+		};
+		B3C043F660225A7FA10387EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				911219465900661F8B546BCB /* Pods-htcm_swift.debug.xcconfig */,
+				95406232C08066FCC4727631 /* Pods-htcm_swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF1614A421CA185600F89F79 /* htcm_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1614B721CA185600F89F79 /* Build configuration list for PBXNativeTarget "htcm_swift" */;
+			buildPhases = (
+				75BED07C30E8F62EBADA862F /* [CP] Check Pods Manifest.lock */,
+				AF1614A121CA185600F89F79 /* Sources */,
+				AF1614A221CA185600F89F79 /* Frameworks */,
+				AF1614A321CA185600F89F79 /* Resources */,
+				CBB7F61481539327AAA5DA20 /* [CP] Embed Pods Frameworks */,
+				AB9597AFEE5138517EA419B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = htcm_swift;
+			productName = htcm_swift;
+			productReference = AF1614A521CA185600F89F79 /* htcm_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF16149D21CA185600F89F79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = soldoros;
+				TargetAttributes = {
+					AF1614A421CA185600F89F79 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AF1614A021CA185600F89F79 /* Build configuration list for PBXProject "htcm_swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF16149C21CA185600F89F79;
+			productRefGroup = AF1614A621CA185600F89F79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF1614A421CA185600F89F79 /* htcm_swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF1614A321CA185600F89F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1614B321CA185600F89F79 /* LaunchScreen.storyboard in Resources */,
+				AF1614B021CA185600F89F79 /* Assets.xcassets in Resources */,
+				AF1614AE21CA185600F89F79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75BED07C30E8F62EBADA862F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-htcm_swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB9597AFEE5138517EA419B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-htcm_swift/Pods-htcm_swift-resources.sh",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htcm_swift/Pods-htcm_swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB7F61481539327AAA5DA20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-htcm_swift/Pods-htcm_swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/iCarousel/iCarousel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iCarousel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htcm_swift/Pods-htcm_swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF1614A121CA185600F89F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF8AD1E21E33ED1009CF97B /* AccountSetPWController.swift in Sources */,
+				AF1614C421CA1F8100F89F79 /* HomeController.swift in Sources */,
+				AF1614C621CA1F8A00F89F79 /* HealthController.swift in Sources */,
+				AFE83D7921EF16CC00DB03C5 /* PBPayController.swift in Sources */,
+				AFF8AD2021E350EE009CF97B /* MineSettingController.swift in Sources */,
+				AFF9D47921E7198A0000FC8B /* MineAddVipCardController.swift in Sources */,
+				AF0C0ADA21F566B700EB7EAF /* HealthFamilyListController.swift in Sources */,
+				AF0CD65F21E43FD200AA0325 /* MineChangePhoneValidationController.swift in Sources */,
+				AF0CD66321E485D000AA0325 /* SSAddImage.swift in Sources */,
+				AF1E7EEC21CB343800365675 /* UIView+SSAdd.swift in Sources */,
+				AF13054321FAB4680043B777 /* MineCouponsController.swift in Sources */,
+				AF1E7EFD21CB6FD700365675 /* SSDeviceDefault.swift in Sources */,
+				AF0CD66121E4516200AA0325 /* MineChangePWController.swift in Sources */,
+				AF13054E21FB11DB0043B777 /* HomeMedicalPackageListController.swift in Sources */,
+				AFF9D47D21E735520000FC8B /* MineVipCardDetController.swift in Sources */,
+				AFE83D7B21EF1AF400DB03C5 /* PBViews.swift in Sources */,
+				AFA9194D21DE040B00AD0EB9 /* MineDatas.swift in Sources */,
+				AFE83D7721EF168400DB03C5 /* PBWebViewController.swift in Sources */,
+				AFCE6CE421EC208900563B25 /* MineOrderViews.swift in Sources */,
+				AFF9D47721E6EA780000FC8B /* MineVipCardController.swift in Sources */,
+				AFF9D48121E7529A0000FC8B /* MineTransactionRecordsController.swift in Sources */,
+				AF1614CC21CA264100F89F79 /* Define.swift in Sources */,
+				AFF8AD1521E2EF9D009CF97B /* AccountViews.swift in Sources */,
+				AF13054021FAAFFB0043B777 /* MineEquipmentController.swift in Sources */,
+				AFCE6CE821EC94F600563B25 /* MineServiceOrderListController.swift in Sources */,
+				AFCE6CE621EC40D500563B25 /* SSTableSwitchView.swift in Sources */,
+				AFED620021F7FA29006EA8B8 /* HealthAddFamilyController.swift in Sources */,
+				AFF8AD1721E2EFAA009CF97B /* AccountDatas.swift in Sources */,
+				AF0C0ADC21F5B86A00EB7EAF /* HealthFamilyDetController.swift in Sources */,
+				AF1E7EFF21CB7E2500365675 /* UITableView+Add.swift in Sources */,
+				AF0CD65B21E43A3400AA0325 /* MineHeaderImgController.swift in Sources */,
+				AFA9194B21DE03FE00AD0EB9 /* MineViews.swift in Sources */,
+				AF1E7EEE21CB350500365675 /* UIColor+SSAdd.swift in Sources */,
+				AF1E7EF021CB3F8900365675 /* HomeViews.swift in Sources */,
+				AF1614A921CA185600F89F79 /* AppDelegate.swift in Sources */,
+				AFDF082021CCE93B0042364D /* NSObject+SSAdd.swift in Sources */,
+				AFE5D71321ED8E6F006966C4 /* MineMedicalOrderDetController.swift in Sources */,
+				AF1614CE21CA2C8800F89F79 /* SSUserDefault.swift in Sources */,
+				AF0CD65D21E43B3000AA0325 /* MineChangePhoneController.swift in Sources */,
+				AFDF081E21CCE3D40042364D /* HealthViews.swift in Sources */,
+				AF1614C221CA1F6400F89F79 /* BaseController.swift in Sources */,
+				AF1540A521D0D078003C753E /* FoundDatas.swift in Sources */,
+				AF1E7EF221CB3FA200365675 /* HomeDatas.swift in Sources */,
+				AF0CD66521E4A81900AA0325 /* MineMessageListController.swift in Sources */,
+				AFED620821F8762D006EA8B8 /* SSDatePickerController.swift in Sources */,
+				AFED620221F81E0A006EA8B8 /* HealthEditFamilyController.swift in Sources */,
+				AFED620621F86F14006EA8B8 /* PBEditController.swift in Sources */,
+				AF1614C821CA1F9700F89F79 /* FoundController.swift in Sources */,
+				AFED620421F85DE9006EA8B8 /* HealthQrCodeController.swift in Sources */,
+				AF13054921FAFB630043B777 /* MineCollectionListController.swift in Sources */,
+				AFF8AD1C21E33963009CF97B /* AccountForgotPasswordController.swift in Sources */,
+				AF8B205721D5F712006CD070 /* UIImage+Add.swift in Sources */,
+				AFCE6CE221EC1FC100563B25 /* MineMedicalOrderListController.swift in Sources */,
+				AF1614CA21CA1FA300F89F79 /* MineController.swift in Sources */,
+				AF1E7EFB21CB6C8900365675 /* LLCycleScrollView.swift in Sources */,
+				AF8B205921D5FF4C006CD070 /* UIButton+Add.swift in Sources */,
+				AF1540A321D0D06C003C753E /* FoundViews.swift in Sources */,
+				AF86063221F16C9600B9DDF0 /* MineServiceOrderDetController.swift in Sources */,
+				AFF9D47B21E725B30000FC8B /* NSString+Add.swift in Sources */,
+				AFF9D47F21E74D260000FC8B /* MineChangeVipCardPWController.swift in Sources */,
+				AFDF081C21CCE3C80042364D /* HealthDatas.swift in Sources */,
+				AF157E9E21DF5D56007CA0EA /* AccountLoginController.swift in Sources */,
+				AF8B205521D5CDBB006CD070 /* BaseVirtualController.swift in Sources */,
+				AF1614BB21CA1D6200F89F79 /* RootController.swift in Sources */,
+				AF0CD65921E42FD500AA0325 /* MinePersonalController.swift in Sources */,
+				AF13054621FAEE770043B777 /* MineGeneralListController.swift in Sources */,
+				AFF8AD1321E2ED9F009CF97B /* AccountRegisterController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF1614AC21CA185600F89F79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1614AD21CA185600F89F79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF1614B121CA185600F89F79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1614B221CA185600F89F79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF1614B521CA185600F89F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF1614B621CA185600F89F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1614B821CA185600F89F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911219465900661F8B546BCB /* Pods-htcm_swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQSJ28CZ2Q;
+				INFOPLIST_FILE = htcm_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengsheng.htcm2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AF1614B921CA185600F89F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95406232C08066FCC4727631 /* Pods-htcm_swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQSJ28CZ2Q;
+				INFOPLIST_FILE = htcm_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengsheng.htcm2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF1614A021CA185600F89F79 /* Build configuration list for PBXProject "htcm_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1614B521CA185600F89F79 /* Debug */,
+				AF1614B621CA185600F89F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1614B721CA185600F89F79 /* Build configuration list for PBXNativeTarget "htcm_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1614B821CA185600F89F79 /* Debug */,
+				AF1614B921CA185600F89F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF16149D21CA185600F89F79 /* Project object */;
+}
